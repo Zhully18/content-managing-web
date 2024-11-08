@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background: #68b6c4;
+}
+  
+.navbar-logo h2 {
+  font-size: 1.5rem;
+}
+
+.link ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.link ul li{
+  /* color: #fff; */
+  font-size: 18px;
+  font-weight: 600;
+}
+.link ul li:hover{
+    cursor: pointer;
+}
+
+.nav_btn button{
+    margin-top: 20px;
+    padding: 1rem 3rem;
+    border: none;
+    font-weight: 600;
+    border-radius: 30px;
+}
+.nav_btn button:hover{
+    color: #000;
+} 
